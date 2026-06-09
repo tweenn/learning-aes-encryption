@@ -1,0 +1,8 @@
+{
+	"aes": {
+		"key": "AES_KEY",
+		"iv": "AES_IV",
+		"algorithm": "BACKEND_AES_ALGORITHM",
+		"encoding": "BACKEND_AES_ENCODING"
+	}
+}
