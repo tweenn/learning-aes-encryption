@@ -22,7 +22,7 @@ export default async (data) => {
 			iv: Buffer.from(AES_IV)
 		},
 		importedKey,
-		Buffer.from(data, 'hex')
+		Buffer.from(data, AES_ENCODING)
 	);
 
 	return decoder.decode(decryptedBuffer);

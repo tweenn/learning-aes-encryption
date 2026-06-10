@@ -1,7 +1,7 @@
 require('dotenv-flow').config();
 
 const data = require('./information.json');
-const aesEncrypt = require('./aes-encryption');
+const aesEncrypt = require('./aes-encrypt');
 const lzwEncode = require('./lzw-encode');
 
 const dataToEncrypt = JSON.stringify(data);

@@ -30,7 +30,7 @@ const data = JSON.stringify({
 });
 
 const AES_ALGORITHM = process.env.FRONT_END_AES_ALGORITHM;
-const AES_ENCODING = process.env.AES_ENCODING;
+// const AES_ENCODING = process.env.AES_ENCODING;
 const AES_KEY = process.env.AES_KEY;
 const AES_IV = process.env.AES_IV;
 
