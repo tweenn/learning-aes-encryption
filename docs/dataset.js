@@ -1,4 +1,4 @@
-[
+export default [
 	{
 		"title": "smallest",
 		"data": [
@@ -174,4 +174,4 @@
 			}
 		]
 	}
-]
+];

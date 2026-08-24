@@ -1,4 +1,4 @@
-import datasets from './dataset.json';
+import datasets from './dataset.js';
 
 const $ = window.$ || window.jQuery;
 

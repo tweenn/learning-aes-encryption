@@ -39,4 +39,4 @@ const processedDatasets = Object.entries(datasets)
 	});
 
 
-require('./export-json')(processedDatasets);
+require('./export-data')(processedDatasets);
